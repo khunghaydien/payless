@@ -1,0 +1,43 @@
+
+@import './common.scss';
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+
+@font-face {
+  font-family: 'Hiragino Kaku Gothic ProN W3';
+  src: url('../fonts/Hiragino Kaku Gothic ProN W3.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Hiragino Kaku Gothic ProN W6';
+  src: url('../fonts/Hiragino Kaku Gothic ProN W6.otf') format('otf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', ’ヒラギノ角ゴシック’, YuGothic,
+    ’Yu Gothic’, ’メイリオ’, Meiryo, ’ＭＳ ゴシック’, sans-serif!important;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  line-height: 1!important;
+}
+
+.sys-custom-select {
+  background-image: url('../icon/icon-chev-down.png');
+  background-size: 12px 8px;
+}
+
+.exhibition-button {
+  font-size: 21px;
+  line-height: 1;
+  padding: 18px 78px;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
